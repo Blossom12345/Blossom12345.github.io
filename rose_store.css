@@ -70,7 +70,7 @@ section#sidebar{
   padding: 1.7em 0.5em 2.0em 1.7em;
   border-right: 5px solid white;
   color: #fff;
-  z-index: 3;
+  z-index: 3;  
 
 }
 
@@ -151,11 +151,9 @@ section#main{
 }
 .panel1:link{
 
-
 }
 .panel1:hover{
   color: blue;
-
 }
 
 a:hover{
@@ -212,7 +210,6 @@ footer a:vistied{
 }
 footer{
   position: relative;
-  width: 100px;
   background-color: #000;
   top:100px;
   height: 100px;
