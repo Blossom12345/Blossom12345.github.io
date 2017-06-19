@@ -72,21 +72,19 @@
 	}
 
 	body {
-		/*background: #330000;*/
-		/*background-image: url("../../images/binary-code-007.jpg");*/
     color:#fff;
     text-align:center;
     background-image: url("../../images/1.jpg");
-    background-repeat: repeat;
+   /* background-repeat: repeat;
     background-attachment: fixed;
     background-size: cover;
     font-size: 12px;
     font-family: 'Dancing Script', cursive;
-    -webkit-animation: backgroundScroll 15s linear 1;
+    -webkit-animation: backgroundScroll 10s linear 1;
     -webkit-animation-fill-mode: forwards;
-    animation: backgroundScroll 1s infinite linear ;
+    animation: backgroundScroll 3s infinite linear ;
     animation-fill-mode: forwards;
-    /*height: 100px;*/
+    height: 100px;
 }
 @-webkit-keyframes backgroundScroll {
 from {background-position: 0 0;}
@@ -95,7 +93,7 @@ to {background-position: -180px 0px;}
 @keyframes backgroundScroll {
 from {background-position: 0 0;}
 to {background-position: -180px 0px;}
-}
+}*/
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after, body.is-switching *, body.is-switching *:before, body.is-switching *:after {
