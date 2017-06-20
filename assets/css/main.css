@@ -1113,7 +1113,7 @@ to {background-position: -180px 0px;}
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/fontpage.jpg");
+			background-image: url("../../images/new.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1507,7 +1507,7 @@ to {background-position: -180px 0px;}
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: rgba(27, 31, 34, 1);
 			border-radius: 4px;
 			opacity: 0;
 		}

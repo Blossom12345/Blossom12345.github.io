@@ -1,0 +1,236 @@
+
+
+
+
+
+ .img-reponsive{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background-image: fixed;
+
+ }
+body{
+	background-image: url("./img/zeldaB.jpg" );
+  /*background-color: green;*/
+	background-repeat:no-repeat;
+	background-size: 100vw 100vw;
+  background-position: middle;
+  margin: 0;
+  overflow: auto;
+  overflow-x: hidden;
+  background-attachment: hidden;
+ 
+}
+
+header{
+  background-image: url(./img/40287.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  padding: 10px;
+  height: 180px;
+  border-bottom: 5px solid white;
+  width: 100%;
+  z-index: 1;
+}
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+
+.goron{
+  position: relative;
+  height:300px;  
+  width:300px;
+  z-index: 2;
+  top: 5px;
+  left: 90px;
+}
+h3{
+  background-color:transparent;
+  height: 30px;
+  width: 300px;
+  position: relative;
+  top:20px;
+  color: white;
+  left: 20px;
+  font-size: 30px;
+
+}
+
+.btn{
+  background-color: #082E17;
+}
+
+.btn1{
+  background-color: White;
+  position: relative;
+  top: 150px;
+  text-transform: uppercase;
+}
+
+section#sidebar{
+  width: 300px;
+  height: 800px;
+  float: left;
+  position: relative;;
+  display: block;
+  background-color: #418E60;
+  margin: 1.7em 0 3.0em 2.0em 1.7em;
+  padding: 1.7em 0.5em 2.0em 1.7em;
+  border-right: 5px solid white;
+  color: #fff;
+  z-index: 3;  
+
+}
+
+section#main{
+  background-color: #e2be7f;
+  margin: 0 0 2.0em;
+  padding:  1.5em 0 2.0em 1.5em;
+  display: inline-block;
+  border-radius: 2em;
+  box-shadow: 1px 1px 5px #194d19;
+
+}
+.panel1{
+  float: left;
+  position: relative;
+  margin: 0 0.5em 2.0em 0.5em;
+  padding: 1.0em;
+  border: 3px solid white;
+  border-radius:  0.6em;
+  background-image: url(./img/Hyrule_Warriors_Items_Bombs.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  background-size: 100% 100%;
+  background-color: black;
+  left: 140px;
+  top: 20px;
+}
+.panel2{
+  float: left;
+  width: auto;
+  position: relative;
+  margin: 0 0.5em 2.0em 0.5em;
+  padding: 1.0em;
+  border: 3px solid white;
+  border-radius:  0.6em;
+  background-image:  url(./img/instrumentsinzelda.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  background-size: 100% 100%;
+  background-color: black;
+  left: 310px;
+  top: 20px;
+}
+.panel3{
+  float: left;
+  position: relative;
+  margin: 0 0.5em 2.0em 0.5em;
+  padding: 1.0em;
+  border: 3px solid white;
+  border-radius:  0.6em;
+  background-image: url(./img/70a8b7da5e3c3fb635b72bb3a639e23e.jpg);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  top: 355px;
+  background-size: 100% 100%;
+  text-align: middle; 
+ 
+ }
+ .panel4{
+  float: right;
+  position: relative;
+  margin: 0 0.5em 2.0em 0.5em;
+  padding: 1.0em;
+  border: 3px solid white;
+  border-radius:  0.6em;
+  background-image:  url(./img/shield.jpg);
+  right: 54%;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+  bottom: 300px;
+  background-size: 100% 100%;
+  text-align: middle; 
+  
+
+}
+.panel1:link{
+
+}
+.panel1:hover{
+  color: blue;
+}
+
+a:hover{
+  color: #fff;
+}
+
+nav li{
+  display: inline-block;
+  background-color: : #fff;
+}
+nav{
+  position: relative;
+  left: 900px;
+  top: -280px;
+  z-index: 2;
+}
+#footer{
+  background-color: #000;
+  height: 10px;
+  font-size: 1.2em;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 1.5em 2.0em;
+}
+footer ul#menuFooter{
+  display: inline-block;
+  list-style: none;
+  margin:  0 0 0 0.6em;
+  padding: 0;
+  
+}
+footer ul li{
+  display: inline-block;
+  padding: 0 0.7em 0 0;
+  margin: 0;
+  font-size: 20px;
+
+}
+footer ul li::before{
+  content: "|";
+  padding-right: 0.7em;
+}
+
+footer a:hover{
+  color: #fff;
+  text-decoration: underline;
+  background-color: 
+}
+
+footer a:vistied{
+  color: #green;
+  text-decoration:none;
+}
+footer{
+  position: relative;
+  background-color: #000;
+  top:100px;
+  height: 100px;
+  width: 100vw; 
+}
+div.clear {
+  clear: both;
+  font-size: 1%;
+}
