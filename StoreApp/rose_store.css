@@ -3,11 +3,12 @@
 
 
 
- .img-reponsive{
+ .img{
   max-width: 100%;
   height: auto;
   display: block;
-  background-image: fixed;
+  background-repeat:no-repeat;
+    background-size:100% 100%;
 
  }
 body{
@@ -141,7 +142,8 @@ section#main{
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
-  top: 355px;
+  top: -290px;
+  left: 65%;
   background-size: 100% 100%;
   text-align: middle; 
  
@@ -154,7 +156,7 @@ section#main{
   border: 3px solid white;
   border-radius:  0.6em;
   background-image:  url(./img/shield.jpg);
-  right: 54%;
+  right: 47%;
   background-repeat: no-repeat;
   width: 300px;
   height: 300px;
